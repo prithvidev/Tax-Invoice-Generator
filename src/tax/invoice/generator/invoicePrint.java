@@ -256,7 +256,6 @@ public class invoicePrint extends javax.swing.JFrame {
 
         jTextField1.setEditable(false);
         jTextField1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jTextField1.setText("07BGYPD5535N1ZO");
         jTextField1.setBorder(null);
         jTextField1.setOpaque(false);
         jTextField1.setSelectionColor(new java.awt.Color(255, 255, 255));
@@ -272,10 +271,14 @@ public class invoicePrint extends javax.swing.JFrame {
         jTextField3.setSelectionColor(new java.awt.Color(255, 255, 255));
 
         jTextField4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jTextField4.setText("13201860");
         jTextField4.setBorder(null);
         jTextField4.setOpaque(false);
         jTextField4.setSelectionColor(new java.awt.Color(255, 255, 255));
+        jTextField4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField4ActionPerformed(evt);
+            }
+        });
 
         jTextField5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jTextField5.setBorder(null);
@@ -473,6 +476,10 @@ public class invoicePrint extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         printRecord(jPanel1);
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField4ActionPerformed
 
     /**
      * @param args the command line arguments

@@ -431,9 +431,9 @@ public class taxinvoicegenerator extends javax.swing.JFrame {
         String sgst = sg.getText();
         String tot = t.getText();
         
-        this.dispose();
-        invoicePrint ip = new invoicePrint(gst, invoice, too, vendor, date, descrip, quantity, rate, total, word, cgst, sgst, tot);
-        ip.setVisible(true);
+        //this.dispose();
+        //invoicePrint ip = new invoicePrint(gst, invoice, too, vendor, date, descrip, quantity, rate, total, word, cgst, sgst, tot);
+        //ip.setVisible(true);
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
